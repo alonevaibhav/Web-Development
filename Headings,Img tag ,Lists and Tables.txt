@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new project</title>
+    <!-- how to add css & js in html -->
+    <!--(link)-->
+    <link rel="stylesheet" href="webb.css">
+    <!--(script:src)-->
+    <script src="vaibhav.js"></script>
+</head>
+
+<body>
+    <!-- +++ Headings & Paragraphs -->
+    <h3>this is my new project welcome</h3>
+    <br>
+    <h1>Buy the Courses for minimmun price</h1>
+    <h3><strong>Coursera</strong></h3>
+    <h3><strong>Udemy</strong></h3>
+    <h3><strong>linkdin</strong></h3>
+    <h3><strong>skillup</strong></h3>
+    <p>here the varioud type of <strong>course</strong> for you . you can choice any of this for your </p>
+    <p>this is chance to <em>improve your skill</em> to earn the professional certificate</p>
+    <!-- exit() -->
+    <hr>
+
+    <!-- +++ Img and Anchor tags -->
+    <p>here the some link you should go & check the real price of certificate</p>
+    <a href="https://www.udemy.com/" target="_blank">Udemy</a><br>
+    <a href="https://www.coursera.org//" target="_blank">courcera</a><br>
+    <a href="https://www.linkedin.com/" target="_blank">linkdin</a><br>
+    <p>here the some picture of you enjoy</p>
+    <!-- <img src="https://source.unsplash.com/user/erondu/500x300" alt="please wait"> -->
+    <!-- exit() -->
+    <hr>
+
+    <!-- +++Lists and Tables -->
+    <p><strong>Here some plans you should buy</strong></p>
+    <ol>
+        <li>basic plan</li>
+        <ul type="square">
+            <li>buy one course</li>
+            <li>buy two course get some descount</li>
+            <li>buy three course get one free course</li>
+        </ul>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>roll number</th>
+                <th>subject</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>vaibhav</td>
+                <td>55</td>
+                <td>ss</td>
+            </tr>
+            <tr>
+                <td>jay</td>
+                <td>69</td>
+                <td>hh</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>
