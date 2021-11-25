@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="webb.css">
+    <!-- Internal Css -->
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+
+
+    <!-- Selecter in CSS -->
+    <style>
+        #blcpink{
+            color: pink;
+        }
+        #blcred{
+            background-color: aqua;
+        }
+        .bgblue{
+            color: red;
+        }
+        span,div{
+            border: 2px solid pink;
+        }
+    </style>
+
+    
+    <!-- Fonds in CSS -->
+    <style>
+        .fond{
+            font-family: 'M PLUS 1 Code', sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 30px;
+            line-height: 1em;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h2>CSS writing Methos</h2>
+ <!-- 1. inline 
+    2.internal 
+    3. external
+    Note: whice css write later this css take presedence  -->
+    <h3>Inline CSS</h3>
+    <h5>Examples: </h5>
+    <p style="color: pink;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, numquam.</p>
+    
+    <h3>Internal CSS</h3> 
+    <h5>Examples: </h5>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, sint.</p>
+
+     <h3>external CSS</h3> 
+    <h5>Examples: </h5>
+    <p id="xo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, sint.</p>
+     
+    
+    <h2>Selecter in CSS</h2>
+<!-- 1.ID Selecter
+    2.Class Selecter
+    3.Element Selecter -->
+    
+    <h3>Element Selecter</h3>
+    <h3 id="blcpink">ID Selecter</h3>
+    <h3 id="blcred" class="bgblue">Class Selecter</h3>
+     <div>
+         Lorem ipsum dolor sit amet.
+     </div>   
+     <span>Lorem ipsum dolor sit amet.</span>
+
+     <h2>Fonds in Css</h2>
+     <a href="https://fonts.google.com/" target="_blank">Here the link of font family</a>
+     <p class="fond">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, praesentium!</p>
+</body>
+</html>
