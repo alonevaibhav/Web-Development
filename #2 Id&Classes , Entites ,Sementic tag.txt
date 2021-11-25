@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>+++ IDs & Classses </h1>
+    <!-- " span#ids.classs " this is way to define ids & classs -->
+    <span id="ids" class="classs"></span>
+    <!-- ".claass "  this is way to define class -->
+    <!-- " #idd "  this is way to define the  ids -->
+    <h1>HTML entities</h1>
+    <a href="https://dev.w3.org/html5/html-author/charref" target="_blank">Here the reference of HTML entities</a>
+    <h3><strong>Example:</strong>  </h3>
+    <p>here i want ampersent sing &lt p &gt </p>
+    <h1>Sementic tag</h1>
+    <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">Here the reference of Sementic tag</a>
+    <h3><strong>Example:</strong>  </h3>
+    <p>Lorem ipsum dolor sit amet <mark> consectetur</mark> adipisicing elit. Sequi, enim.</p>
+        
+</body>
+</html>
