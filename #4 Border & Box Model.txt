@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* +++Borders and Backgrounds */
+        #uniqid{
+            color: yellow;
+            background-color: red;
+            height: 100px;
+            width: 500px;
+            border: 20px solid green;
+            border-radius: 50px;
+        }
+        #myid{
+            color: rgb(208, 247, 38);
+            background-color: rgb(138, 102, 102);
+            height: 100px;
+            width: 500px;
+            border-top: 10px solid yellow;
+            border-left: 9px solid gray;
+            border-right: 10px solid rgb(64, 12, 107);
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+        }
+        #backg{
+            color: rgb(208, 247, 38);
+            background-color: rgb(138, 102, 102);
+            height:200px;
+            width: 200px;
+            background-image: url('https://www.codewithharry.com/assets/img/logo.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+
+
+    <style>
+        /* +++CSS Box Model, Margin and Padding */
+        #modelbox{
+            color: yellow;
+            background-color: #536664;;
+            height: 100px;
+            width: 500px;
+            border: 10px solid gray;
+            /* padding: 105px 105px ; */  /* top/bottom & left /   right */ 
+            padding: 120px 118px 136px 103px ;/* top right bottom left */
+            box-sizing: border-box;
+            margin: 110px 150px 54px 211px /* top right bottom left */
+        }
+        .boxmodel{
+            color: #d20000;
+            background-color: #ffc8c8;;
+            height: 223px;
+            width: 500px;
+            border: 10px solid gray;
+            padding: 73px 120px 55px 88px;
+            margin: -4px 45px 3px 64px;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <h3>+++Borders and Backgrounds</h3>
+    <div id="uniqid">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dolorum?
+    </div>
+    <br>
+    <div id="myid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi.</div>
+    <br>
+    <div id="backg">Lorem ipsum dolor sit amet.</div> <hr>
+
+    
+
+    <h3>+++CSS Box Model, Margin and Padding</h3>
+    <p class="boxmodel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit!</p>
+    <p id="idd" class="boxmodel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit!</p>
+    <p id="modelbox">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugit!</p> <hr>
+   
+
+</body>
+</html>
