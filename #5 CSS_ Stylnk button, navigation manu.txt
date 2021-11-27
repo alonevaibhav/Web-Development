@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Creating a Navigation Menu  */
+        .news {
+            background-color: red;
+            border-radius: 122px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .news li {
+            float: left;
+            padding: 12px;
+            font-weight: bold;
+
+
+
+        }
+
+        .news ul {
+            overflow: auto;
+            list-style: none;
+
+        }
+
+
+
+       /* styling link & button  */
+        #boxxi {
+            width: 666px;
+            border: 2px solid blue;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: rgb(216, 232, 247);
+            border-radius: 10px;
+        }
+
+        .normal {}
+
+        .btn {
+            margin: auto 10px;
+            box-sizing: border-box;
+            border: 2px solid rgb(112, 45, 45);
+            padding: 1px;
+            /* background-color: antiquewhite; */
+            font-weight: bold;
+            text-decoration: none;
+            /* new*/
+            border-radius: 3px;
+        }
+
+        a {
+            background-color: rgb(219, 255, 255);
+        }
+
+        a:hover {
+            /*  new  */
+            background-color: rgb(0, 0, 0);
+        }
+
+        a:visited {
+            /*  new  */
+            background-color: tomato;
+        }
+
+        a:active {
+            /*  new  */
+            background-color: darkblue;
+        }
+
+        button {
+            cursor: pointer;
+            /*  new  */
+            font-size: 14px;
+        }
+
+        h2 {
+            margin: auto 236px;
+        }
+
+        .news input {
+            border: px solid blue;
+            float: right;
+            margin: 12px 50px;
+            font-size: 15px;
+
+        }
+
+        #namee {
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Creating a Navigation Menu   -->
+    <div class="news">
+        <ul>
+            <li>Home</li>
+            <li>Natioal</li>
+            <li>Internatial</li>
+            <li>Contact me </li>
+            <li>Help center</li>
+            <li>Go back</li>
+            <div>
+                <input type="text" name="namee" id="namee" placeholder="Here seaarch">
+            </div>
+        </ul>
+
+    </div>
+
+
+  <!-- styling link & button -->
+    <div id="boxxi" class="normal">
+        <h2>Bocii headline</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, facere, quisquam voluptas similique error
+            corporis accusantium unde ipsam nostrum dolores rem officiis optio repudiandae culpa fuga vitae nulla. Sit,
+            blanditiis modi. Nam voluptatem vitae dolores optio quas maiores deserunt libero reiciendis earum nostrum,
+            dolorum laboriosam illum qui. Ab accusamus unde laudantium veritatis delectus explicabo dicta assumenda,
+            corporis quae, aut cum obcaecati dolorem iusto possimus iure eaque.</p>
+        <a class="btn" href="https://www.facebook.com/">Google</a>
+        <button class="btn">Click here</button>
+    </div>
+</body>
+
+</html>
